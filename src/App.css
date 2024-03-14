@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* CalendarStyles.css */
+.react-calendar {
+  @apply max-w-full m-auto bg-transparent;
+}
+
+.react-calendar__navigation button {
+  @apply text-blue-700;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  @apply text-red-500;
+}
